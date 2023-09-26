@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento&family=Titillium+Web:wght@300&display=swap');
+
+:root {--primary-color: #365640;
+--secondary-color: #E1ECEC;
+--acent1-color: #13636F;
+--acent2-color: #12536C;
+--heading-font: 'Quattrocento', serif;
+--paragraph-font:'Titillium Web', serif;
+--nav-background-color: #E1ECEC;
+--nav-link-color: #12536C;
+--nav-hover-link-color:#365640;
+--nav-hover-background-color: #12536C;}
+
+
+body {font-family: var(--paragraph-font);
+max-width: 960px;
+padding: 20px;}
+
+h1,h2,h2,h4,h5,h6 {font-family: var(--heading-font);
+color: var(--primary-color);}
+
+header {padding: 20px;;
+background-color:var(--acent1-color);}
+
+p {padding: 25px;}
+
+nav {background-color: var(--nav-background-color);
+font-size:1.2rem;
+display:flex;}
+
+nav a {display: block;
+color: var(--nav-link-color);
+text-decoration: none;
+padding: 1rem;}
+
+nav a:link, nav a:visited {color: var(--nav-link-color);}
+
+nav a:hover {color: var(--nav-hover-link-color);
+background-color: var(--nav-hover-background-color);
+}
