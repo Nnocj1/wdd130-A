@@ -28,6 +28,10 @@ p {
     padding: 25px;
 }
 
+.hero {
+    position: relative;
+}
+
 .hero img {
     display: block;
     width: 20em;
