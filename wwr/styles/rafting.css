@@ -36,7 +36,7 @@ nav {
     display:flex;
 }
     
-.socillinks {
+.sociallinks {
     display: block;
     color: var(--nav-link-color);
     text-decoration: none;
