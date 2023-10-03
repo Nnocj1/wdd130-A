@@ -68,3 +68,7 @@ nav a:hover {
     top: -10px;
     left: 150px;
 }
+
+.hero img {
+    display:block;
+}
