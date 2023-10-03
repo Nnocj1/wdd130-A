@@ -23,16 +23,18 @@ h1,h2,h3,h4,h5,h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
-    
+   
+p {
+    padding: 25px;
+}
+
 .hero img {
     display: block;
     width: 1rem;
     height:auto;
+    float: right
 }
     
-.hero {
-    position: relative;
-}
 
 .hero h1 {
     position: absolute;
@@ -42,16 +44,14 @@ h1,h2,h3,h4,h5,h6 {
 
 article {
     position: absolute;
-}
+    background-color: rgba(0, 127, 255,0.2);
 
-p {
-    padding: 25px;
 }
     
 nav {
     font-size:1.2rem;
     display:flex;
-    padding: 1em;
+    padding: 1.2em;
 }
     
 .sociallinks {
