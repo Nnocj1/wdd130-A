@@ -32,9 +32,11 @@ p {
     display: block;
     width: 1rem;
     height:auto;
-    float: right
 }
     
+article img {
+    float:right;
+}
 
 .hero h1 {
     position: absolute;
