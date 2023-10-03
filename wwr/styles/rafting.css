@@ -64,5 +64,7 @@ nav a:hover {
 }
 
 .hero h1 {
-    position:absolute;
+    position: absolute;
+    top: -5px;
+    left: 100px;
 }
