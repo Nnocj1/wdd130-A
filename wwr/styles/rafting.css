@@ -59,25 +59,5 @@ nav a:hover {
 }
 
 
-.hero {
-    position:relative;
-}
 
-.hero h1 {
-    top: -70px;
-    left: 250px;
-}
-
-.hero img {
-    display:block;
-    width: 100%;
-    height: auto;
-}
-
-article {
-    position: absolute;
-}
-
-article img {
-    float: right;
-}
+  
