@@ -37,10 +37,8 @@ nav {
 }
     
 .sociallinks {
-    display: block;
     color: var(--nav-link-color);
     text-decoration: none;
-    padding: 1rem;
 }
     
 
