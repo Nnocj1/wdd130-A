@@ -16,12 +16,21 @@
     --nav-hover-background-color:#12536C;
 }
 
-* {
-    margin-left: 3%;
-    margin-right: 3%;
+
+body {font-family: var(--paragraph-font);
+    margin-left: 0;
+    margin-right:0;
+    max-width: 960px;
+    padding: 20px;
+}
+
+/*This is to position the images in the section column to look right, as well as become adjustable*/
+section img {
+    margin-left: 0;
+    margin-right:0;
+    min-width: 20%;
+    max-width: 960px;
     padding: 0;
-    max-width: 94%;
-    box-sizing: border-box;
 }
 
      
@@ -30,64 +39,71 @@ h1,h2,h3,h4,h5,h6 {
     color: var(--primary-color);
 }
    
-
-nav a {
-    padding: 2em;
-}
-
 p {
     padding: 25px;
 }
-
 
 div.hero {
     position: relative;
 }
 
 .hero img {
+    position: relative;
     display: block;
     width: 100%;
     height:auto;
 }
     
+
+section img {
+    max-width: 960px;
+    width: 100%;
+}
+
 /*To style the entire article container*/
 
 article {
     position: absolute;
     width: 80%;
-    top: 300px;
-    background-color: rgba(225,236,236, 0.8);
-    right:0%;
-   
+    height: 5em;
+    top: 60%;
+    background-color: rgba(225,236,236, 0.8);  
+    right: 5px;
+    padding: 1em;
 }
     
 /*To style the image in the article container*/
 
 .article img {
-    width: 200px;
-    padding: 2px;
+    width: auto;
+    height: 5em;
     float: right;
 }
 
 /*To style the paragraph element in the article container*/
 
 article p {
-    position:relative;
+    position: relative;
     font-style: italic;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    width: 80%;
+    top: -60%;
+    padding: 1em;
 }
 
 /*To style the h1 of the class hero*/
 .hero h1 {
     position: absolute;
-    top: 20px;
+    top: 5px;
     background-color: rgba(225,236,236, 0.8);
-    padding:1em;
-    width: 100%;
     height: auto;
     text-align: center;
+    width: 100%;
+    max-width: 960px;
+    padding: 0;
 }
   
+/*This is to style the social links and nav links*/
 .sociallinks {
     color: var(--nav-link-color);
     text-decoration: none;
@@ -97,4 +113,8 @@ article p {
     width: 5%;
     height: auto;
 }
-    
+  
+nav a {
+    padding: 1em;
+}
+
