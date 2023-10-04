@@ -16,7 +16,6 @@
     --nav-hover-background-color:#12536C;
 }
 
-
 * {
     margin-left: 3%;
     margin-right: 3%;
@@ -25,9 +24,6 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: var(--paragraph-font);
-}
      
 h1,h2,h3,h4,h5,h6 {
     font-family: var(--heading-font);
