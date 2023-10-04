@@ -96,7 +96,11 @@ article p {
 .sociallinks {
     color: var(--nav-link-color);
     text-decoration: none;
-    width: 5%;
+}
+
+.sociallinks img {
+    width: 10%;
+    width: 5px;
     height: auto;
 }
     
