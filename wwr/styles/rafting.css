@@ -18,48 +18,81 @@
 
 
 * {
-    max-width: 960px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-    
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+     
 h1,h2,h3,h4,h5,h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
    
+
+nav a {
+    padding: 2em;
+}
+
 p {
     padding: 25px;
 }
 
-.hero {
+
+div.hero {
     position: relative;
 }
 
 .hero img {
     display: block;
-    width: 20em;
+    width: 100%;
     height:auto;
 }
     
-article img {
-    float:right;
-}
-
-.hero h1 {
-    position: absolute;
-}
+/*To style the entire article container*/
 
 article {
     position: absolute;
-    background-color: rgba(0, 127, 255, 0.8);
-    color:#E1ECEC;
+    width: 80%;
+    top: 280px;
+    background-color: rgba(225,236,236, 0.8);
+    right:0%;
+   
 }
     
-nav {
-    font-size:1.2rem;
-    display:flex;
-    padding: 1.2em;
+/*To style the image in the article container*/
+
+.article img {
+    width: 200px;
+    padding: 2px;
+    float: right;
 }
-    
+
+/*To style the paragraph element in the article container*/
+
+article p {
+    position:relative;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+/*To style the h1 of the class hero*/
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    background-color: rgba(225,236,236, 0.8);
+    padding:1em;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: center;
+}
+  
 .sociallinks {
     color: var(--nav-link-color);
     text-decoration: none;
