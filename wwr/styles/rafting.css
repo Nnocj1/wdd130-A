@@ -96,5 +96,7 @@ article p {
 .sociallinks {
     color: var(--nav-link-color);
     text-decoration: none;
+    width: 5%
+    height: auto;
 }
     
