@@ -28,6 +28,7 @@ main img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
+    margin: 0 0 1rem 1rem;
 }
 
 p {
@@ -35,7 +36,7 @@ p {
 }
 
 main {
-    max-width: 840px;
+    max-width: 640px;
 }
 
 aside {
