@@ -55,6 +55,7 @@ aside h2 {
 
 aside img {
     max-width: 94%;
+    min-height: 205px;
     max-height: 250px;
     height: auto;
 }
