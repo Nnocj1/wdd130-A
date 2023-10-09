@@ -72,11 +72,6 @@ header, .grid, footer {
     margin: 0 auto;
 }
 
-.grid {
-    display:grid;
-    align-items: center;
-}
-
 main {
     display:block;
     grid-column: 2/3; /*It continues from position 2 and ends at 3*/

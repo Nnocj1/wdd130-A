@@ -118,3 +118,7 @@ nav a {
     padding: 1em;
 }
 
+.grid {
+    display: grid;
+   align-items: center;
+}
