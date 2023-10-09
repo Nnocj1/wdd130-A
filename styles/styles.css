@@ -85,7 +85,7 @@ main {
 aside {
     display:block;
     width: 20em;
-    text-align: center;
+    text-align: left;
     position: relative;
     grid-column: 1/2; /*It starts at position 1 and ends at 2*/
     grid-row: 1/2;
