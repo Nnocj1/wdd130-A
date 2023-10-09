@@ -89,8 +89,8 @@ aside {
     position: relative;
     grid-column: 1/2; /*It starts at position 1 and ends at 2*/
     grid-row: 1/2;
-    bottom: 1em;
 }
+
 /* Class Selectors */
 
 .box {
