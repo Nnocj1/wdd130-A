@@ -54,7 +54,7 @@ aside h2 {
 }
 
 aside img {
-    max-width: 90%;
+    max-width: 94%;
     max-height: 250px;
     height: auto;
 }
@@ -79,7 +79,7 @@ header, .grid, footer {
 main {
     display:block;
     grid-column: 2/3; /*It continues from position 2 and ends at 3*/
-    margin: 2rem;
+    margin: 1rem;
 }
 
 aside {
@@ -89,7 +89,7 @@ aside {
     position: relative;
     grid-column: 1/2; /*It starts at position 1 and ends at 2*/
     grid-row: 1/2;
-    bottom: 4em;
+    bottom: 3em;
 }
 /* Class Selectors */
 
