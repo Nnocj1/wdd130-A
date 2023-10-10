@@ -4,7 +4,7 @@
 :root {
     --primary-color:#021E34;
     --secondary-color:#E1ECEC;
-    --accent1-color:#E1ECEC;
+    --accent1-color:#13636F;
     --accent2-color:#12536C;
 
     --heading-font:'Quattrocento', serif;
@@ -96,6 +96,7 @@ article img {
 	display: grid;
 	grid-template-columns: 120px 1fr;
     justify-content: space-between;
+    background-color: var(--accent2-color);
 	align-items: center;
 	border-bottom: 1px solid #ccc;
 	max-width: 1000px;
@@ -113,18 +114,26 @@ nav {
 
 .nav {
 	display: flex;
-	list-style: none;
+    margin: 0.6rem 0.4rem 0 0rem;
+    font-family: var(--heading-font);
+    background-color: var(--nav-background-color);
+    color: var(--nav-link-color);
+    border: 1px solid var(--accent2-color);
+    justify-self: flex-end;
 }
 
 .nav a {
-	display: block;
-	color: #021E34;
+	display: flex;
+	color: var(--nav-hover-background-color);
+    background-color: var(--nav-hover-link-color);
+    font-size: medium;
 	padding: 20px;
 	text-decoration: none;
 }
 
 .nav a:hover {
-	color: #13636F;
+	color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
 	font-weight: 700;
-	text-decoration: underline;
+	text-decoration: none;
 }
