@@ -38,6 +38,7 @@ p {
     display:flex;
     color: var(--nav-link-color);
     text-decoration: none;
+    
 }
 
 .sociallinks img {
