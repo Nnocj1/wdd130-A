@@ -32,9 +32,22 @@ p {
     color: var(--accent2-color)
 }
 
+/*This is to style the social links and nav links*/
+
 .sociallinks {
+    display:flex;
     color: var(--nav-link-color);
     text-decoration: none;
+}
+
+.sociallinks img {
+    width:13%;
+    height: auto;
+}
+  
+.sociallinks a {
+    display:flex;
+    padding: 5px;  
 }
 
 div.hero {
@@ -64,13 +77,13 @@ div.hero {
 
 .hero img {
     display: block;
-    width: 100%;
-    height:auto;
+    height: auto;
 }
 
 article img {
-    width: auto;
-    height: 5em;
+    position: relative;
+    width: 20%;
+    height: auto;
     float: right;
 }
 
@@ -78,95 +91,4 @@ article img {
 .hero p {
     position: relative;
 }
-
-/*img {
-    position: relative;
-    display: block;
-    width: 100%;
-    height:auto;
-}
-body {
-    display: block;
-    font-family: var(--paragraph-font);
-    font-size: 16px;
-/*nav {
-    display: flex;
-    background-color : var(--nav-background-color);
-}
-
-nav a {
-    display: grid;
-    grid-column: 4/8;
-    justify-content: space-evenly;
-    border: 1px solid var(--nav-link-color);
-    color: var(--nav-link-color);
-    text-decoration: none;
-    padding: 20px;
-}
-
-/*This is to position the images in the section column to look right, as well as become adjustable*/
-/*section img {
-    margin-left: 0;
-    margin-right:0;
-    min-width: 20%;
-    max-width: 960px;
-    padding: 0;
-}
-
-   
-
-
-
-
-
-    
-
-section img {
-    max-width: 960px;
-    width: 100%;
-}
-
-/*To style the entire article container*/
-
-/*
-    
-/*To style the image in the article container*/
-
-/*.
-}
-
-/*To style the paragraph element in the article container*/
-
-/*
-
-/*To style the h1 of the class hero*/
-/*.
-}
   
-/*This is to style the social links and nav links*/
-/
-
-.sociallinks img {
-    width: 5%;
-    height: auto;
-}
-  
-.sociallinks a {
-    display: flex;
-    padding: 20px;
-    text-decoration: none;
-}
-
-.grid {
-    display: grid;
-    height: 200px;
-    padding: 10px 70px 10px 30px;
-}
-
-header img {
-    max-width: 100px;
-}
-
-header, main, footer {
-    margin: 0 auto;
-}  */
