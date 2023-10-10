@@ -139,3 +139,7 @@ nav {
 	font-weight: 700;
 	text-decoration: none;
 }
+
+.history {
+    border: 1px solid var(--accent2-color); 
+}
