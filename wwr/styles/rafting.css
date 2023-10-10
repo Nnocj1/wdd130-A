@@ -29,7 +29,7 @@ h1,h2,h3,h4,h5,h6 {
 
 p {
     padding: 25px;
-    color: var(--accent2-color)
+    color: var(--accent2-color);
 }
 
 /*This is to style the social links and nav links*/
