@@ -78,6 +78,11 @@ main {
     margin: 1rem;
 }
 
+.grid { 
+    display: grid;
+    align-items: center;
+}
+
 aside {
     display:block;
     width: 20em;
