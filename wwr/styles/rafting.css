@@ -17,18 +17,79 @@
 }
 
 * {
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+    max-width: 640px;
 }
 
 
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+p {
+    padding: 25px;
+    color: var(--accent2-color)
+}
+
+.sociallinks {
+    color: var(--nav-link-color);
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 5px;
+    background-color: rgba(225,236,236, 0.8);
+    height: auto;
+    text-align: center;
+    width: 100%;
+    max-width: 960px;
+    padding: 0;
+}
+
+.hero article {
+    position: absolute;
+    width: 80%;
+    height: 5em;
+    top: 60%;
+    background-color: rgba(225,236,236, 0.8);  
+    right: 5px;
+    padding: 1em;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height:auto;
+}
+
+article img {
+    width: auto;
+    height: 5em;
+    float: right;
+}
+
+
+.hero p {
+    position: relative;
+}
+
+/*img {
+    position: relative;
+    display: block;
+    width: 100%;
+    height:auto;
+}
 body {
+    display: block;
     font-family: var(--paragraph-font);
     font-size: 16px;
-}
-
-nav {
+/*nav {
     display: flex;
     background-color : var(--nav-background-color);
 }
@@ -44,7 +105,7 @@ nav a {
 }
 
 /*This is to position the images in the section column to look right, as well as become adjustable*/
-section img {
+/*section img {
     margin-left: 0;
     margin-right:0;
     min-width: 20%;
@@ -52,26 +113,12 @@ section img {
     padding: 0;
 }
 
-     
-h1,h2,h3,h4,h5,h6 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-}
    
-p {
-    padding: 25px;
-}
 
-div.hero {
-    position: relative;
-}
 
-.hero img {
-    position: relative;
-    display: block;
-    width: 100%;
-    height:auto;
-}
+
+
+
     
 
 section img {
@@ -81,52 +128,23 @@ section img {
 
 /*To style the entire article container*/
 
-article {
-    position: absolute;
-    width: 80%;
-    height: 5em;
-    top: 60%;
-    background-color: rgba(225,236,236, 0.8);  
-    right: 5px;
-    padding: 1em;
-}
+/*
     
 /*To style the image in the article container*/
 
-.article img {
-    width: auto;
-    height: 5em;
-    float: right;
+/*.
 }
 
 /*To style the paragraph element in the article container*/
 
-article p {
-    position: relative;
-    font-style: italic;
-    font-size: 1.2rem;
-    width: 80%;
-    top: -60%;
-    padding: 1em;
-}
+/*
 
 /*To style the h1 of the class hero*/
-.hero h1 {
-    position: absolute;
-    top: 5px;
-    background-color: rgba(225,236,236, 0.8);
-    height: auto;
-    text-align: center;
-    width: 100%;
-    max-width: 960px;
-    padding: 0;
+/*.
 }
   
 /*This is to style the social links and nav links*/
-.sociallinks {
-    color: var(--nav-link-color);
-    text-decoration: none;
-}
+/
 
 .sociallinks img {
     width: 5%;
@@ -134,22 +152,21 @@ article p {
 }
   
 .sociallinks a {
-    display: block;
+    display: flex;
     padding: 20px;
     text-decoration: none;
 }
 
-header {
+.grid {
     display: grid;
-    height: 100px;
-    grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 840px;
-    margin-bottom: 10px;
+    height: 200px;
+    padding: 10px 70px 10px 30px;
 }
 
 header img {
     max-width: 100px;
 }
+
+header, main, footer {
+    margin: 0 auto;
+}  */
