@@ -73,11 +73,13 @@ div.hero {
     background-color: rgba(225,236,236, 0.8);  
     right: 5px;
     padding: 1em;
+    border-radius: 5px;
 }
 
 .hero img {
     display: block;
     height: auto;
+    border-radius: 5px;
 }
 
 article img {
@@ -92,7 +94,7 @@ article img {
 }
 
 .grid {
-	margin: 1rem auto;
+	margin: 0rem auto;
 	display: grid;
 	grid-template-columns: 120px 1fr;
     justify-content: space-between;
