@@ -20,10 +20,6 @@
     max-width: 640px;
 }
 
-header {
-    height: auto;
-}
-
 h1,h2,h3,h4,h5,h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
@@ -94,7 +90,4 @@ article img {
     position: relative;
 }
 
-.grid img {
-    height:  width="40px";
-}
   
