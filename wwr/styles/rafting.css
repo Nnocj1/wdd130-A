@@ -31,25 +31,6 @@ p {
     color: var(--accent2-color);
 }
 
-/*This is to style the social links and nav links*/
-
-.sociallinks {
-    display:flex;
-    color: var(--nav-link-color);
-    text-decoration: none;
-    
-}
-
-.sociallinks img {
-    width:13%;
-    height: auto;
-}
-  
-.sociallinks a {
-    display:flex;
-    padding: 5px;  
-}
-
 div.hero {
     position: relative;
 }
@@ -94,7 +75,7 @@ article img {
 }
 
 .grid {
-	margin: 0rem auto;
+	margin: 0.5rem auto;
 	display: grid;
 	grid-template-columns: 120px 1fr;
     justify-content: space-between;
@@ -110,24 +91,21 @@ article img {
 	height: auto;
 }
 
-nav {
-	text-align: right;
-}
-
 .nav {
 	display: flex;
     margin: 0.6rem 0.4rem 0 0rem;
     font-family: var(--heading-font);
-    background-color: var(--nav-background-color);
-    color: var(--nav-link-color);
+    background-color: var(--nav-link-color);
+    color: var(--nav-background-color);
     border: 1px solid var(--accent2-color);
+    border-radius: 10px;
     justify-self: flex-end;
 }
 
 .nav a {
 	display: flex;
-	color: var(--nav-hover-background-color);
-    background-color: var(--nav-hover-link-color);
+	color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
     font-size: medium;
 	padding: 20px;
 	text-decoration: none;
@@ -140,6 +118,93 @@ nav {
 	text-decoration: none;
 }
 
+.box, .our-history {
+    margin: 0.5rem;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 0.5rem;
+    color: #000;
+}
+
+.box img {
+    max-width: 94%;
+    min-height: 210px;
+    max-height: 250px;
+    height: auto;
+}
+
+.our-history h2 {
+    display: flex;
+    text-align: center;
+}
+
 .history {
-    border: 1px solid var(--accent2-color); 
+    margin: 0.5rem auto;
+    display: flex;
+    max-height: 50%;
+    height: auto;
+    justify-items: center;
+    font-size: large;  
+    width: 960px;
+}
+  
+
+.adventure {
+    margin: 0rem auto;
+    grid-template-columns: 150px 150px 150px 150px 150px;
+	display: grid;
+    grid-gap: 2em;
+    color: var(--secondary-color);
+    justify-content: center;
+    background-color: var(--accent2-color);
+    padding-top: 60px;
+    padding-bottom: 40px;
+	border-bottom: 1px solid #ccc;
+    width: 960px;
+}
+
+.adventure img {
+    position: relative;
+    width: 150px;
+    min-height: 80%;
+    
+}
+.adventure h2 {
+    display:flex;
+    bottom: 700px;
+    position: absolute;
+    justify-self: center;
+    text-align: center;
+    font-size:x-large;
+    color: var(--secondary-color)
+}
+
+footer {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 1fr 240px;
+    justify-content: space-around;
+    background-color: var(--secondary-color);
+    color: var(--secondary-color);
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 1000px;
+}
+
+/*This is to style the social links and nav links*/
+
+.sociallinks {
+    display:flex;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    font-family: var(--heading-font);
+    justify-self: flex-end;
+}
+
+
+.sociallinks img {
+    display: flex;
+	color: var(--nav-hover-background-color);
+	text-decoration: none;
+    width:50%;
+    height: auto;
 }
