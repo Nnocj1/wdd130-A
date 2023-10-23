@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-US"> <!--later work to ensure it matches the early template-->
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="device-width,initial-scale=1.0">
+    <link href="styles/quiz.css" rel="stylesheet">
+    <title>Basic HTML and CSS Quiz</title>
+   </head>
+   <body>
+    <header class="header"> ☑ Basic HTML and CSS Quiz</header>
+    <main>
+        <form>
+            <fieldset>
+                <label for="q1"><b>1. </b>What does the acronym CSS stand for?:</label>
+                <input type="text" id="q1" name="q1"> 
+              
+                <label for="q2"><b>2. </b>How are id and class attributes selected?:</label>
+                <textarea id="q2" name="q2"></textarea>
+                
+                <label for="q3"><b>3. </b>Which of the following is a valid CSS comment?:</label>
+                <select id="q3" name="q3">
+                    <option value="" selected disabled>Choose One..</option>
+                    <option value="#It's me">#It's me</option>
+                    <option value="/*It's me*/">/*It's me*/</option>
+                    <option value="//!--It's me">//!--It's me</option>
+                </select>
+
+                <label for="q4"><b>4. </b>What is the buttom margin given this declaration?:</label>
+                <p class="example">margin: 10px 5px 15px;</p>
+                <input type="integer" id="q4" name="q4">
+                
+                <button type="submit">Submit Quiz</button>
+            </fieldset>
+        </form>
+    </main>
+    <footer></footer>
+   </body>
+</html>

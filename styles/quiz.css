@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento&family=Titillium+Web:wght@300&display=swap');
+
+:root {--primary-color:   #021E34;
+--secondary-color: #E1ECEC;
+--acent1-color:#CCDAE0;
+--acent2-color: #12536C;
+--heading-font: 'Quattrocento', serif;
+--paragraph-font:'Titillium Web', serif;
+--nav-background-color: #E1ECEC;
+--nav-link-color: #12536C;
+--nav-hover-link-color: #E1ECEC;
+--nav-hover-background-color: #12536C;}
+
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    width: 400px;
+}
+
+form {
+    position: relative;
+    width: 400px;
+    margin: 0 auto; 
+    border-radius: 0.5em;
+    display: grid;
+}
+
+fieldset {
+    position: absolute;
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 0 auto;
+    width: 400px;
+    background-color: var(--secondary-color);
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 3em 1em 2em 1em;
+}
+
+
+b {
+    color: var(--acent2-color);
+}
+
+
+.header {
+    font-size: larger;
+    font-style: bold;
+    color: var(--acent2-color);
+    padding: 0.3em;
+    font-family: var(--heading-font);
+}
+
+input, select, textarea, button {
+    padding: 0.3em;
+    font-size: medium;
+    font-family: var(--paragraph-font);
+}
+
+textarea {
+    width: 400px;
+    height: 70px;
+    vertical-align: bottom;
+}
+
+.example {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 0.3em;
+    font-size: small;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    width: 300px;
+    height: 30px;
+
+}
+
+
+button {
+    margin: 1rem;
+    background-color: var(--acent2-color);
+    color: #fff;
+    border: none;
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+button:hover {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+}
