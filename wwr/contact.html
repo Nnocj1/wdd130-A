@@ -42,35 +42,33 @@
                 <form>
                     <fieldset>
                         <label for="username">Enter Full name:</label>
-                        <input type="text" id="username" name="username"> 
-    
+                        <input type="text" id="username" name="username">
+                
                         <label for="email">Email:</label>
                         <input type="email" id="email" name="email">
-                   
-                        <label>Contact Reason::</label>
+                
+                        <legend>Contact Reason:</legend> <!-- Use <legend> for radio group label -->
                 
                         <label for="General-Inquiry">
-                            <input type="radio" id="General-Inquiry" name="contact-reason" value="General-Inquiry">General Inquiry
+                            <input type="radio" id="General-Inquiry" name="contact-reason" value="General-Inquiry"> General Inquiry
                         </label>
                 
-                        <label for="Reservation Question">
-                            <input type="radio" id="Reservation-Questions" name="contact-reason" value="Reservation-Question"> Reservation Question
+                        <label for="Reservation-Question">
+                            <input type="radio" id="Reservation-Question" name="contact-reason" value="Reservation-Question"> Reservation Question
                         </label>
                 
-                        <label for="Website-suggestion">
+                        <label for="Website-Suggestion">
                             <input type="radio" id="Website-Suggestion" name="contact-reason" value="Website-Suggestion"> Website Suggestion
                         </label>
-                   
+                
                         <label for="message">Please enter your message:</label>
                         <textarea id="message" name="message"></textarea>
-        
+                
                         <label for="subscribe-newsletter">Please subscribe me to the monthly newsletter</label>
-                        <p class="example">margin: 10px 5px 15px;</p>
                         <input type="checkbox" id="subscribe-newsletter" name="subscribe-newsletter">
-                        
                         <button type="submit">Send Message</button>
                     </fieldset>
-                </form>     
+                </form>    
             </aside>             
         </div>
           
