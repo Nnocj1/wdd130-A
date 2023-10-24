@@ -361,3 +361,9 @@ button:hover {
     width:44px;
     height: 22px;
 }
+
+.map iframe {
+    width:"480";
+    height:"370";
+    style:"border:0";
+    
