@@ -405,6 +405,10 @@ button:hover {
     height: auto;
 }
 
+.trip-h {
+    display:flex;
+    justify-content: center;
+}
 .call-to-contact {
     display: grid;
     grid-template-columns: 1fr 1fr;
