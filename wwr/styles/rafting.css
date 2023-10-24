@@ -405,7 +405,7 @@ button:hover {
     height: auto;
 }
 
-.trip-h {
+.trip-h h1 {
     display:flex;
     justify-content: center;
 }
