@@ -47,21 +47,21 @@
                         <label for="email">Email:</label>
                         <input type="email" id="email" name="email">
                 
-                        <legend for="fieldset">Contact Reason:</legend> <!-- Use <legend> for radio group label -->
-                        <fieldset id="fieldset">
-                            <label for="General-Inquiry">
-                                <input type="radio" id="General-Inquiry" name="contact-reason" value="General-Inquiry"> General Inquiry
-                            </label>
+                        <legend for="radio">Contact Reason:</legend> <!-- Use <legend> for radio group label -->
+                        <div class="radio">
+                          <label for="General-Inquiry">
+                            <input type="radio" id="General-Inquiry" name="contact-reason" value="General-Inquiry"> General Inquiry
+                          </label>
                     
-                            <label for="Reservation-Question">
-                                <input type="radio" id="Reservation-Question" name="contact-reason" value="Reservation-Question"> Reservation Question
-                            </label>
+                          <label for="Reservation-Question">
+                            <input type="radio" id="Reservation-Question" name="contact-reason" value="Reservation-Question"> Reservation Question
+                          </label>
                     
-                            <label for="Website-Suggestion">
-                                <input type="radio" id="Website-Suggestion" name="contact-reason" value="Website-Suggestion"> Website Suggestion
-                            </label>
-                    
-                        </fieldset>
+                          <label for="Website-Suggestion">
+                            <input type="radio" id="Website-Suggestion" name="contact-reason" value="Website-Suggestion"> Website Suggestion
+                          </label>
+                        </div>
+                       
                            
                         <label for="message">Please enter your message:</label>
                         <textarea id="message" name="message"></textarea>

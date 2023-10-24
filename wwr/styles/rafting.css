@@ -232,7 +232,7 @@ footer {
         display:block;
         max-width:480px;
         grid-column: 1/2; /*It continues from position 2 and ends at 3*/
-        margin: 0.2rem;
+        margin: 0;
         height: auto;
         
 }
