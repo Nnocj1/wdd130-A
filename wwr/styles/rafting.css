@@ -418,7 +418,7 @@ button:hover {
     font-weight: 700;
     height: 44px;
     text-decoration: none;
-    background-color: steelblue;
+    background-color: navy;
     color: var(--secondary-color);
     border: 2px solid black;
 }
