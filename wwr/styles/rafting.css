@@ -447,7 +447,6 @@ th, td {
 .table {
     margin-top: 1em;
     padding-top: 1em;
-    border: 1px solid var(---accent2-color);
 }
 
 
