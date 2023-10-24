@@ -378,3 +378,81 @@ button:hover {
     width:44px;
     height: 22px;
 }
+
+/*trips*/
+
+.trip {
+    margin: 0;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 0.5rem;
+    background-color: #ddd;
+    color: #000;
+    min-width: 100px;
+    max-width: 325px;
+}
+
+.trip-flex {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1000px;
+}
+
+.trip img {
+    position: relative;
+    max-width: 94%;
+    min-height: 210px;
+    max-height: 250px;
+    height: auto;
+}
+
+.call-to-contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.contactUsButton  {
+    padding: 1em 9em;
+    margin: 0.9em;
+    font-size:large;
+    font-weight: 700;
+    height: 44px;
+    text-decoration: none;
+    background-color: steelblue;
+    color: var(--secondary-color);
+    border: 2px solid black;
+}
+
+/* styles for the table*/
+
+table {
+    border-collapse: collapse;
+    width: 95%;
+    margin: 20px auto;
+    border: 1px solid #000; 
+}
+
+th, td {
+    border: 1px solid #000; 
+    padding: 10px; 
+    text-align: center;
+}
+
+.table h2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.table {
+    margin-top: 1em;
+    padding-top: 1em;
+    border: 1px solid var(---accent2-color);
+    border-top: 1px solid var(--accent2-color);
+}
+
+
+main {
+    border: 1px solid var(--accent2-color);
+}
+
