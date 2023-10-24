@@ -363,7 +363,7 @@ button:hover {
 }
 
 .map iframe {
-    width:"480";
+    width:"600";
     height:"370";
-    style:"border:0";
-    
+    /*style:"border:0"*/;
+}
