@@ -249,7 +249,7 @@ footer {
     height: 44px;
     text-decoration: none;
     background-color: steelblue;
-    color: var(--secondary-color);
+    color: white;
     border: 2px solid black;
 }
 
