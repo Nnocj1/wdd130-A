@@ -208,3 +208,150 @@ footer {
     width:50%;
     height: auto;
 }
+
+
+/*styles for the form*/
+
+.form {
+    width: 50%;
+    border-radius: 0.5em;
+    position: relative;
+    display: grid;
+    grid-column: 2/3; /*It starts at position 1 and ends at 2*/
+    grid-row: 1/2;
+}
+
+
+
+.content {
+    display: grid;
+    grid-template-columns: 395px 395px;
+}
+
+.contact {
+        display:block;
+        max-width:480px;
+        grid-column: 1/2; /*It continues from position 2 and ends at 3*/
+        margin: 0.2rem;
+        height: auto;
+}
+
+.contact h1 {
+    display:flex;
+    justify-content: center;
+}
+
+fieldset {
+    display: grid;
+    position: relative;
+    grid-gap: 0.5rem;
+    margin: 0 auto;
+    width: 50%;
+    height:450px;
+    background-color: var(--secondary-color);
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 3em 1em 2em 1em;
+}
+
+
+b {
+    color: #12536C;
+}
+
+
+input, select, textarea, button {
+    padding: 0.3em;
+    font-size: medium;
+    width: 400px;
+}
+
+textarea {
+    width: 400px;
+    height: 70px;
+}
+
+.example {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 0.3em;
+    font-size: small;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    width: 300px;
+    height: 30px;
+
+}
+
+button {
+    margin: 1rem;
+    background-color: var(--accent2-color);
+    color: #fff;
+    border: none;
+    width: 400px;
+    font-weight:800;
+    height: 40px;
+    border-radius: 5px;
+}
+
+button:hover {
+    margin: 1rem;
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
+    font-weight: 600;
+    border: 3px solid var(--accent2-color);
+    border: none;
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+
+.employees-pics img {
+        width: 480px;
+        height: auto;
+        border: 1px solid steelblue;
+        box-shadow: 0 0 30px gray;
+}
+
+.employees-pics {
+    margin: 0rem auto;
+    grid-template-columns: 280px 280px 280px;
+	display: grid;
+    grid-gap: 1em;
+    color: var(--secondary-color);
+    justify-content:space-around;
+    background-color: var(--accent2-color);
+    padding-top: 60px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+	border-bottom: 1px solid #ccc;
+    width: 940px;
+    margin-top: 1em;
+}
+
+.employees-pics img {
+    position: relative;
+    width: 280px;
+    min-height: 80%;
+    
+}
+.adventure p {
+    display:flex;
+    bottom: 700px;
+    position: absolute;
+    justify-self: center;
+    text-align: center;
+    font-size:x-large;
+    color: var(--secondary-color)
+}
+
+.info {
+    border-left: 1px solid  rgba(0,0,0,0.2);
+}
+
+#subscribe-newsletter {
+    width:44px;
+    height: 22px;
+}
