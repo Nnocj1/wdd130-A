@@ -458,3 +458,27 @@ main {
     border: 1px solid var(--accent2-color);
 }
 
+/*styles home page*/
+.tripButton  {
+    padding: 1em 7em;
+    margin: 0.9em;
+    font-size:large;
+    font-weight: 700;
+    height: 44px;
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: 2px solid black;
+}
+
+.call-to-trip {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.home-logo h1 {
+    display:flex;
+    justify-content: flex-start;
+    margin-left:1em;
+}
