@@ -11,9 +11,14 @@
 --nav-hover-link-color: #E1ECEC;
 --nav-hover-background-color: #12536C;}
 
+* {
+    margin: 0;
+    width: 960px;
+}
 
 body {font-family: var(--paragraph-font);
 max-width: 960px;
+margin: 0 auto;
 padding: 20px;}
 
 h1,h2,h2,h4,h5,h6 {font-family: var(--heading-font);
