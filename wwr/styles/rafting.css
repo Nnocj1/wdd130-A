@@ -482,3 +482,41 @@ main {
     justify-content: flex-start;
     margin-left:1em;
 }
+
+
+.h-grid {
+    margin: 0;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 0.5rem;
+    background-color: #ddd;
+    color: #000;
+    min-width: 100px;
+    max-width: 450px;
+}
+
+.home-grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+    justify-content: space-around;
+}
+
+.h-grid img {
+    position: relative;
+    max-width: 94%;
+    min-height: 210px;
+    max-height: 250px;
+    height: auto;
+}
+
+.home-grid h1 {
+    display:flex;
+    justify-content: center;
+}
+
+
+
+form {
+    background-color: var(--primary-color)
+}
+
