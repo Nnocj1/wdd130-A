@@ -362,7 +362,7 @@ button:hover {
 }
 .adventure h2 {
     display:flex;
-    bottom: 200px;
+    top: 1220px;
     position: absolute;
     justify-self: center;
     text-align: center;
