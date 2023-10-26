@@ -360,7 +360,7 @@ button:hover {
     min-height: 80%;
     
 }
-.adventure p {
+.adventure h2 {
     display:flex;
     bottom: 700px;
     position: absolute;
